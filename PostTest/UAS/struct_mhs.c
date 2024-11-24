@@ -125,6 +125,7 @@ int main(){
                 printf("Nilai mahasiswa dengan UAS tertinggi : %s dengan nilai %g\n", mhs[maxUAS].nama, mhs[maxUAS].UAS);
                 printf("Nilai mahasiswa dengan UAS terendah : %s dengan nilai %g\n", mhs[minUAS].nama, mhs[minUAS].UAS);
         }
+        printf("Terima kasih sudah menggunakan!");
     } while (pilihan != 3);
 
     //Membersihkan alokasi memori
